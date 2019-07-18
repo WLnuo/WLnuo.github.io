@@ -1712,7 +1712,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffb;
+  background: #531f4b;
 }
 .feed-link,
 .chat {
@@ -2513,4 +2513,9 @@ body {
 #sidebar span,
 #sidebar a {
   color: #7db9de;
+}
+.content {
+  border-radius: 20px;
+  padding: 30px 60px 30px 60px;
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
 }

@@ -111,17 +111,17 @@
   };
 </script>
 
-  <meta name="description" content="1212欢迎光临—saasassas—wqwtitle: 2018 date: 2018-10-25 16:10:03password: 123456">
+  <meta name="description" content="莫得钱钱膜的恰的我好饿啊!">
 <meta property="og:type" content="article">
 <meta property="og:title" content="小o(*￣▽￣*)o站">
 <meta property="og:url" content="http://yoursite.com/2019/07/18/我的第一篇博客/index.html">
 <meta property="og:site_name" content="小o(*￣▽￣*)o站">
-<meta property="og:description" content="1212欢迎光临—saasassas—wqwtitle: 2018 date: 2018-10-25 16:10:03password: 123456">
+<meta property="og:description" content="莫得钱钱膜的恰的我好饿啊!">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-18T10:12:53.690Z">
+<meta property="og:updated_time" content="2019-07-18T11:07:15.842Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="小o(*￣▽￣*)o站">
-<meta name="twitter:description" content="1212欢迎光临—saasassas—wqwtitle: 2018 date: 2018-10-25 16:10:03password: 123456">
+<meta name="twitter:description" content="莫得钱钱膜的恰的我好饿啊!">
 
 
 
@@ -397,7 +397,7 @@
                 
               
 
-              <time title="创建时间：2019-07-18 17:00:01 / 修改时间：18:12:53" itemprop="dateCreated datePublished" datetime="2019-07-18T17:00:01+08:00">2019-07-18</time>
+              <time title="创建时间：2019-07-18 17:00:01 / 修改时间：19:07:15" itemprop="dateCreated datePublished" datetime="2019-07-18T17:00:01+08:00">2019-07-18</time>
             </span>
           
 
@@ -438,7 +438,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span title="本文字数">75</span>
+              <span title="本文字数">0</span>
             </span>
           
 
@@ -469,8 +469,7 @@
       
 
       
-        <p>1212欢迎光临<br>—saa<br>sassas<br>—wqw<br>title: 2018</p>
-<h2 id="date-2018-10-25-16-10-03"><a href="#date-2018-10-25-16-10-03" class="headerlink" title="date: 2018-10-25 16:10:03"></a>date: 2018-10-25 16:10:03</h2><h2 id="password-123456"><a href="#password-123456" class="headerlink" title="password: 123456"></a>password: 123456</h2>
+        
       
     </div>
 
@@ -540,17 +539,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -623,23 +613,6 @@
       </div>
 
       
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#date-2018-10-25-16-10-03"><span class="nav-number">1.</span> <span class="nav-text">date: 2018-10-25 16:10:03</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#password-123456"><span class="nav-number">2.</span> <span class="nav-text">password: 123456</span></a></li></ol></div>
-            
-
-          </div>
-        </div>
-      <!--/noindex-->
-      
 
       
 
@@ -689,7 +662,33 @@
 <span id="busuanzi_container_site_uv">
   本站访问次数：<span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
 </span>
-
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span> 
+<script> 
+    var now = new Date(); 
+    function createtime() {
+    var grt= new Date("07/16/2019 00:00:00");
+    //此处修改你的建站时间或者网站上线时间 
+    now.setTime(now.getTime()+250); 
+    days = (now - grt ) / 1000 / 60 / 60 / 24; 
+    dnum = Math.floor(days); hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); 
+    hnum = Math.floor(hours); 
+    if(String(hnum).length ==1 ){
+        hnum = "0" + hnum;
+    } 
+    minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+    mnum = Math.floor(minutes); if(String(mnum).length ==1 )
+    {
+       mnum = "0" + mnum;
+    } 
+    seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+    snum = Math.round(seconds);
+    if(String(snum).length ==1 ){snum = "0" + snum;} 
+    document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 ";
+    document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+} 
+    setInterval("createtime()",250); 
+</script>
         
 <div class="busuanzi-count">
   <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -1185,8 +1184,8 @@
   
 
   
-  
-
+ <!-网站欺骗--> 
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
 <!--单击显示文字-->
 <script type="text/javascript" src="/js/click_show_text.js"></script>
 <!-- 雪花特效 -->
