@@ -1712,7 +1712,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fd3;
+  background: #505b70;
 }
 .feed-link,
 .chat {
@@ -2498,7 +2498,7 @@ body {
   background-position: center;
 }
 .header {
-  background: url("https://api.dujin.org/pic") none repeat scroll !important;
+  background: url("https://i.loli.net/2019/07/18/5d303295779c062717.png");
 }
 .footer {
   background: rgba(189,192,186,0.5) none repeat scroll !important;
@@ -2512,5 +2512,5 @@ body {
 #sidebar p,
 #sidebar span,
 #sidebar a {
-  color: #bdc0ba;
+  color: #7db9de;
 }
