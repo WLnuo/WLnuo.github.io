@@ -17,13 +17,13 @@
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Fthree%2Fgulpfile.js</url>
-    <content type="text"><![CDATA[const fs = require('fs') const del = require('del') const gulp = require('gulp') const concat = require('gulp-concat') const uglify = require('gulp-uglify') gulp.task('clean', async () => { del(['*.min.js', '!three.min.js']) }) gulp.task('scripts', async () => { const sourceFiles = fs.readdirSync('src') sourceFiles.forEach(file => { const fileName = file.split('.')[0] return gulp.src([`src/${fileName}.js`, 'lib/*.js']) .pipe(concat(`${fileName}.min.js`)) .pipe(uglify()) .pipe(gulp.dest('./')) }) }) gulp.task('default', gulp.series('clean', 'scripts'))]]></content>
+    <url>%2Flib%2Fthree%2Fpackage.json</url>
+    <content type="text"><![CDATA[{"name":"theme-next-three","version":"1.0.0","main":"index.js","repository":"git@github.com:theme-next/theme-next-three.git","author":"Raincal ","license":"MIT","scripts":{"build":"gulp"},"dependencies":{"del":"^5.0.0","gulp":"^4.0.2","gulp-concat":"^2.6.1","gulp-uglify":"^3.0.2"}}]]></content>
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Fthree%2Fpackage.json</url>
-    <content type="text"><![CDATA[{"name":"theme-next-three","version":"1.0.0","main":"index.js","repository":"git@github.com:theme-next/theme-next-three.git","author":"Raincal ","license":"MIT","scripts":{"build":"gulp"},"dependencies":{"del":"^5.0.0","gulp":"^4.0.2","gulp-concat":"^2.6.1","gulp-uglify":"^3.0.2"}}]]></content>
+    <url>%2Flib%2Fthree%2Fgulpfile.js</url>
+    <content type="text"><![CDATA[const fs = require('fs') const del = require('del') const gulp = require('gulp') const concat = require('gulp-concat') const uglify = require('gulp-uglify') gulp.task('clean', async () => { del(['*.min.js', '!three.min.js']) }) gulp.task('scripts', async () => { const sourceFiles = fs.readdirSync('src') sourceFiles.forEach(file => { const fileName = file.split('.')[0] return gulp.src([`src/${fileName}.js`, 'lib/*.js']) .pipe(concat(`${fileName}.min.js`)) .pipe(uglify()) .pipe(gulp.dest('./')) }) }) gulp.task('default', gulp.series('clean', 'scripts'))]]></content>
   </entry>
   <entry>
     <title></title>
