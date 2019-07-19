@@ -1713,7 +1713,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #67ffb4;
+  background: #e3be2a;
 }
 .feed-link,
 .chat {
@@ -2492,14 +2492,14 @@ embed {
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 body {
-  background: url("https://i.bmp.ovh/imgs/2019/07/9a92149ec3abf4ee.jpg");
+  background: url("http://api.btstu.cn/sjbz/?lx=dongman&k=21022200686253956");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
+  background-position: center;
 }
 .header {
-  background: url("https://i.loli.net/2019/07/18/5d303295779c062717.png") repeat scroll !important;
+  background: url("https://i.loli.net/2019/07/19/5d31cedcb397685923.jpg") repeat scroll !important;
 }
 .footer {
   background: rgba(189,192,186,0.5) none repeat scroll !important;
@@ -2516,7 +2516,7 @@ body {
 }
 ；,
 #sidebar {
-  background: url("http://api.btstu.cn/sjbz/?lx=dongman&k=21022200686253956");
+  background: url("https://api.dujin.org/pic");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
