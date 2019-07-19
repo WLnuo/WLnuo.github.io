@@ -7,13 +7,13 @@
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Ffancybox%2FREADME.html</url>
-    <content type="text"><![CDATA[fancyBox 3 for NexT If you want fancybox v2, please go to theme-next-fancybox Installation Step 0 &rarr; Delete fancybox 2 (if you want to upgrade from v2) 1$ rm -rf themes/next/source/lib/fancybox Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 1fancybox: true Update 12$ cd themes/next/source/lib/fancybox$ git pull]]></content>
+    <url>%2Flib%2Fthree%2FREADME.html</url>
+    <content type="text"><![CDATA[JavaScript 3D library for NexT Installation Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-three source/lib/three Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 12345three_waves: trueORcanvas_lines: trueORcanvas_sphere: true Update 12$ cd themes/next/source/lib/three$ git pull]]></content>
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Fthree%2FREADME.html</url>
-    <content type="text"><![CDATA[JavaScript 3D library for NexT Installation Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-three source/lib/three Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 12345three_waves: trueORcanvas_lines: trueORcanvas_sphere: true Update 12$ cd themes/next/source/lib/three$ git pull]]></content>
+    <url>%2Flib%2Ffancybox%2FREADME.html</url>
+    <content type="text"><![CDATA[fancyBox 3 for NexT If you want fancybox v2, please go to theme-next-fancybox Installation Step 0 &rarr; Delete fancybox 2 (if you want to upgrade from v2) 1$ rm -rf themes/next/source/lib/fancybox Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 1fancybox: true Update 12$ cd themes/next/source/lib/fancybox$ git pull]]></content>
   </entry>
   <entry>
     <title></title>

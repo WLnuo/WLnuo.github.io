@@ -1712,7 +1712,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #edf275;
+  background: #0b281d;
 }
 .feed-link,
 .chat {
@@ -2504,7 +2504,7 @@ body {
   background: rgba(189,192,186,0.5) none repeat scroll !important;
 }
 #sidebar {
-  background: url("https://www.milorette.vip/api/background");
+  background: url("http://api.btstu.cn/sjbz/?lx=dongman&k=21022200686253956");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2512,7 +2512,8 @@ body {
 #sidebar p,
 #sidebar span,
 #sidebar a {
-  color: #7db9de;
+  color: #e77c8e;
+  font-size: 20px;
 }
 .content {
   border-radius: 20px;
