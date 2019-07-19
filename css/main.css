@@ -1190,7 +1190,8 @@ pre .javascript .function {
 .menu .menu-item a,
 .menu .menu-item span.exturl {
   display: block;
-  font-size: 13px;
+  color: #ef498b !important;
+  font-size: 20px;
   line-height: inherit;
   border-bottom: 1px solid transparent;
   transition-property: border-color;
@@ -1712,7 +1713,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0b281d;
+  background: #67ffb4;
 }
 .feed-link,
 .chat {
@@ -2492,10 +2493,10 @@ embed {
 }
 body {
   background: url("https://i.bmp.ovh/imgs/2019/07/9a92149ec3abf4ee.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }
 .header {
   background: url("https://i.loli.net/2019/07/18/5d303295779c062717.png") repeat scroll !important;
@@ -2503,14 +2504,28 @@ body {
 .footer {
   background: rgba(189,192,186,0.5) none repeat scroll !important;
 }
+.site-subtitle {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #e03c8a;
+}
+.custom-logo .site-title {
+  margin: 10px auto 0;
+  font-size: 40px;
+  color: #4281f4;
+}
+；,
 #sidebar {
   background: url("http://api.btstu.cn/sjbz/?lx=dongman&k=21022200686253956");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+； p,
 #sidebar p,
+； span,
 #sidebar span,
+； a,
 #sidebar a {
   color: #e77c8e;
   font-size: 20px;
