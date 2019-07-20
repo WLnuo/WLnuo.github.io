@@ -1723,7 +1723,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #53cb55;
+  background: #5857c9;
 }
 .feed-link,
 .chat {
@@ -2507,6 +2507,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #e16b8c;
 }
 .header {
   background: url("https://i.loli.net/2019/07/19/5d31cedcb397685923.jpg") repeat scroll !important;
