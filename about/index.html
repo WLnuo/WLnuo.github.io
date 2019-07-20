@@ -111,17 +111,19 @@
   };
 </script>
 
-  <meta name="description" content="fancyBox 3 for NexT  If you want fancybox v2, please go to theme-next-fancybox  Installation  Step 0 &amp;rarr; Delete fancybox 2 (if you want to upgrade from v2)  1$ rm -rf themes/next/source/lib/fancybo">
+  <meta name="description" content="每日涩图 来看个视频再走">
 <meta property="og:type" content="website">
-<meta property="og:title" content="小(゜-゜)つロ站">
-<meta property="og:url" content="http://yoursite.com/lib/fancybox/README.html">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="小(゜-゜)つロ站">
-<meta property="og:description" content="fancyBox 3 for NexT  If you want fancybox v2, please go to theme-next-fancybox  Installation  Step 0 &amp;rarr; Delete fancybox 2 (if you want to upgrade from v2)  1$ rm -rf themes/next/source/lib/fancybo">
+<meta property="og:description" content="每日涩图 来看个视频再走">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-07-17T08:02:53.736Z">
+<meta property="og:image" content="https://www.milorette.vip/api/background">
+<meta property="og:updated_time" content="2019-07-20T05:30:38.900Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小(゜-゜)つロ站">
-<meta name="twitter:description" content="fancyBox 3 for NexT  If you want fancybox v2, please go to theme-next-fancybox  Installation  Step 0 &amp;rarr; Delete fancybox 2 (if you want to upgrade from v2)  1$ rm -rf themes/next/source/lib/fancybo">
+<meta name="twitter:title" content="关于">
+<meta name="twitter:description" content="每日涩图 来看个视频再走">
+<meta name="twitter:image" content="https://www.milorette.vip/api/background">
 
 
 
@@ -129,7 +131,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/lib/fancybox/README">
+  <link rel="canonical" href="http://yoursite.com/about/">
 
 
 
@@ -140,7 +142,7 @@
 </script>
 
   
-  <title> | 小(゜-゜)つロ站</title>
+  <title>关于 | 小(゜-゜)つロ站</title>
   
 
 
@@ -284,7 +286,7 @@
         
         
           
-          <li class="menu-item menu-item-about">
+          <li class="menu-item menu-item-about menu-item-active">
 
     
     
@@ -380,7 +382,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">
+<h1 class="post-title" itemprop="name headline">关于
 
 </h1>
 
@@ -388,48 +390,6 @@
   
   
 
-
-  
-  
-  <ul class="breadcrumb">
-    
-      
-      
-        
-          
-            
-          
-          
-            <li><a href="/lib/">LIB</a></li>
-          
-        
-      
-    
-      
-      
-        
-          
-            
-          
-          
-            <li><a href="/lib/fancybox/">FANCYBOX</a></li>
-          
-        
-      
-    
-      
-      
-        
-          
-            
-          
-          
-            <li>README</li>
-          
-        
-      
-    
-  </ul>
 
 
 </div>
@@ -442,35 +402,9 @@
       <div class="post-body">
         
         
-          <h1 align="center"><a href="https://github.com/fancyapps/fancybox" target="_blank" rel="noopener">fancyBox 3</a> for <a href="https://github.com/theme-next" target="_blank" rel="noopener">NexT</a></h1>
-
-<h2 align="center">If you want fancybox v2, please go to <a href="https://github.com/theme-next/theme-next-fancybox" target="_blank" rel="noopener">theme-next-fancybox</a></h2>
-
-<h1 align="center">Installation</h1>
-
-<h2 align="center">Step 0 &rarr; Delete fancybox 2 (if you want to upgrade from v2)</h2>
-
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rm -rf themes/next/<span class="built_in">source</span>/lib/fancybox</span><br></pre></td></tr></table></figure>
-
-<h2 align="center">Step 1 &rarr; Go to NexT dir</h2>
-
-<p>Change dir to <strong>NexT</strong> directory. There must be <code>layout</code>, <code>source</code>, <code>languages</code> and other directories:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next</span><br><span class="line">$ ls</span><br><span class="line">bower.json  _config.yml  docs  gulpfile.coffee  languages  layout  LICENSE.md  package.json  README.md  scripts  <span class="built_in">source</span>  <span class="built_in">test</span></span><br></pre></td></tr></table></figure>
-
-<h2 align="center">Step 2 &rarr; Get module</h2>
-
-<p>Install module to <code>source/lib</code> directory:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/theme-next-fancybox3 <span class="built_in">source</span>/lib/fancybox</span><br></pre></td></tr></table></figure>
-
-<h2 align="center">Step 3 &rarr; Set it up</h2>
-
-<p>Enable module in <strong>NexT</strong> <code>_config.yml</code> file:</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<h1 align="center">Update</h1>
-
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/next/<span class="built_in">source</span>/lib/fancybox</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
-
+          <h1 id="每日涩图"><a href="#每日涩图" class="headerlink" title="每日涩图"></a><del>每日涩图</del></h1><p><img src="https://www.milorette.vip/api/background" alt="title"></p>
+<h2 id="来看个视频再走"><a href="#来看个视频再走" class="headerlink" title="来看个视频再走"></a><del>来看个视频再走</del></h2>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=20882689&cid=34219221&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>
 
         
       </div>
@@ -480,48 +414,6 @@
     </div>
     
 
-
-  
-  
-  <ul class="breadcrumb">
-    
-      
-      
-        
-          
-            
-          
-          
-            <li><a href="/lib/">LIB</a></li>
-          
-        
-      
-    
-      
-      
-        
-          
-            
-          
-          
-            <li><a href="/lib/fancybox/">FANCYBOX</a></li>
-          
-        
-      
-    
-      
-      
-        
-          
-            
-          
-          
-            <li>README</li>
-          
-        
-      
-    
-  </ul>
 
 
     
@@ -692,7 +584,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">fancyBox 3 for NexT</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">1.1.</span> <span class="nav-text">If you want fancybox v2, please go to theme-next-fancybox</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">2.</span> <span class="nav-text">Installation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.1.</span> <span class="nav-text">Step 0 → Delete fancybox 2 (if you want to upgrade from v2)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.2.</span> <span class="nav-text">Step 1 → Go to NexT dir</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.3.</span> <span class="nav-text">Step 2 → Get module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#null"><span class="nav-number">2.4.</span> <span class="nav-text">Step 3 → Set it up</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">3.</span> <span class="nav-text">Update</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#每日涩图"><span class="nav-number">1.</span> <span class="nav-text">每日涩图</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#来看个视频再走"><span class="nav-number">1.1.</span> <span class="nav-text">来看个视频再走</span></a></li></ol></li></ol></div>
             
 
           </div>
