@@ -23,18 +23,13 @@
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Ffancybox%2FREADME.html</url>
-    <content type="text"><![CDATA[fancyBox 3 for NexT If you want fancybox v2, please go to theme-next-fancybox Installation Step 0 &rarr; Delete fancybox 2 (if you want to upgrade from v2) 1$ rm -rf themes/next/source/lib/fancybox Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 1fancybox: true Update 12$ cd themes/next/source/lib/fancybox$ git pull]]></content>
-  </entry>
-  <entry>
-    <title></title>
     <url>%2Flib%2Fthree%2FREADME.html</url>
     <content type="text"><![CDATA[JavaScript 3D library for NexT Installation Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-three source/lib/three Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 12345three_waves: trueORcanvas_lines: trueORcanvas_sphere: true Update 12$ cd themes/next/source/lib/three$ git pull]]></content>
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Fthree%2Fgulpfile.js</url>
-    <content type="text"><![CDATA[const fs = require('fs') const del = require('del') const gulp = require('gulp') const concat = require('gulp-concat') const uglify = require('gulp-uglify') gulp.task('clean', async () => { del(['*.min.js', '!three.min.js']) }) gulp.task('scripts', async () => { const sourceFiles = fs.readdirSync('src') sourceFiles.forEach(file => { const fileName = file.split('.')[0] return gulp.src([`src/${fileName}.js`, 'lib/*.js']) .pipe(concat(`${fileName}.min.js`)) .pipe(uglify()) .pipe(gulp.dest('./')) }) }) gulp.task('default', gulp.series('clean', 'scripts'))]]></content>
+    <url>%2Flib%2Ffancybox%2FREADME.html</url>
+    <content type="text"><![CDATA[fancyBox 3 for NexT If you want fancybox v2, please go to theme-next-fancybox Installation Step 0 &rarr; Delete fancybox 2 (if you want to upgrade from v2) 1$ rm -rf themes/next/source/lib/fancybox Step 1 &rarr; Go to NexT dir Change dir to NexT directory. There must be layout, source, languages and other directories: 123$ cd themes/next$ lsbower.json _config.yml docs gulpfile.coffee languages layout LICENSE.md package.json README.md scripts source test Step 2 &rarr; Get module Install module to source/lib directory: 1$ git clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox Step 3 &rarr; Set it up Enable module in NexT _config.yml file: 1fancybox: true Update 12$ cd themes/next/source/lib/fancybox$ git pull]]></content>
   </entry>
   <entry>
     <title></title>
@@ -48,13 +43,18 @@
   </entry>
   <entry>
     <title></title>
-    <url>%2Flib%2Fthree%2Fcanvas_lines.min.js</url>
-    <content type="text"><![CDATA[$(function(){var s,l,c,t=0,i=0,r=window.innerWidth/2,n=window.innerHeight/2;function p(){r=window.innerWidth/2,n=window.innerHeight/2,s.aspect=window.innerWidth/window.innerHeight,s.updateProjectionMatrix(),c.setSize(window.innerWidth,window.innerHeight)}function E(e){t=e.clientX-r,i=e.clientY-n}function d(e){1]]></content>
+    <url>%2Flib%2Fthree%2Fgulpfile.js</url>
+    <content type="text"><![CDATA[const fs = require('fs') const del = require('del') const gulp = require('gulp') const concat = require('gulp-concat') const uglify = require('gulp-uglify') gulp.task('clean', async () => { del(['*.min.js', '!three.min.js']) }) gulp.task('scripts', async () => { const sourceFiles = fs.readdirSync('src') sourceFiles.forEach(file => { const fileName = file.split('.')[0] return gulp.src([`src/${fileName}.js`, 'lib/*.js']) .pipe(concat(`${fileName}.min.js`)) .pipe(uglify()) .pipe(gulp.dest('./')) }) }) gulp.task('default', gulp.series('clean', 'scripts'))]]></content>
   </entry>
   <entry>
     <title></title>
     <url>%2Flib%2Fthree%2Fcanvas_sphere.min.js</url>
     <content type="text"><![CDATA[$(function(){var c,p,E,d=window.innerWidth,h=window.innerHeight,t=0,r=0,i=window.innerWidth/2,n=window.innerHeight/2;function f(){i=window.innerWidth/2,n=window.innerHeight/2,c.aspect=window.innerWidth/window.innerHeight,c.updateProjectionMatrix(),E.setSize(window.innerWidth,window.innerHeight)}function u(e){t=e.clientX-i,r=e.clientY-n}function m(e){1]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2Flib%2Fthree%2Fcanvas_lines.min.js</url>
+    <content type="text"><![CDATA[$(function(){var s,l,c,t=0,i=0,r=window.innerWidth/2,n=window.innerHeight/2;function p(){r=window.innerWidth/2,n=window.innerHeight/2,s.aspect=window.innerWidth/window.innerHeight,s.updateProjectionMatrix(),c.setSize(window.innerWidth,window.innerHeight)}function E(e){t=e.clientX-r,i=e.clientY-n}function d(e){1]]></content>
   </entry>
   <entry>
     <title></title>
