@@ -1723,7 +1723,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #db536b;
+  background: #bfff33;
 }
 .feed-link,
 .chat {
@@ -2517,7 +2517,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #e16b8c;
 }
 .header {
-  background: url("http://upload.ouliu.net/i/20190722214740yp4j1.jpeg");
+  background: url("https://cdn.sinaimg.cn.52ecy.cn/large/005BYqpgly1g5c1py442pj317l0g3ne6.jpg");
 }
 .footer {
   background: rgba(189,192,186,0.5) none repeat scroll !important;
