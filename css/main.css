@@ -1723,7 +1723,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd1283;
+  background: #3878ff;
 }
 .feed-link,
 .chat {
@@ -2548,6 +2548,10 @@ body::-webkit-scrollbar-thumb {
 #sidebar a {
   color: #e77c8e;
   font-size: 20px;
+}
+#xsjhitokoto {
+  color: #bf3eff;
+  font-size: 15px;
 }
 .content {
   border-radius: 20px;
