@@ -1723,7 +1723,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff20c2;
+  background: #32ffff;
 }
 .feed-link,
 .chat {
@@ -2531,7 +2531,7 @@ body::-webkit-scrollbar-thumb {
 .custom-logo .site-title {
   margin: 10px auto 0;
   font-size: 40px;
-  color: #4281f4;
+  color: #fff;
 }
 ；,
 #sidebar {
@@ -2548,6 +2548,9 @@ body::-webkit-scrollbar-thumb {
 #sidebar a {
   color: #e77c8e;
   font-size: 20px;
+}
+.site-subtitle {
+  color: #bf3eff;
 }
 #xsjhitokoto {
   color: #bf3eff;
